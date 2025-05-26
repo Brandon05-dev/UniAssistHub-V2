@@ -10,7 +10,7 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Chatbot from './components/Chatbot';
 import Chatbot from './components/FAQ';
-import Chatbot from '.src/components/Footer';
+import Chatbot from './components/Footer';
 
 const UniAssistHub = () => {
   const [currentSection, setCurrentSection] = useState('home');
