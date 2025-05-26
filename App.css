@@ -1,0 +1,18 @@
+/* Add to your src/App.css or equivalent global CSS file */
+/* These are Tailwind classes for animation, but if you have custom ones, place them here. */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* You might want to add more specific animations if needed */
