@@ -82,7 +82,7 @@ const UniAssistHub = () => {
       features: ["Data Analysis", "SPSS/R Support", "Proper Citations", "Chapter by Chapter"]
     }
     {
-      icon: 'Globe',
+      icon: 'LaptopCode',
       title: "Website Development",
       description: "Professional website design and development for students and businesses",
       price: "From KSh 800",
