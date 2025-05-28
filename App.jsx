@@ -58,7 +58,7 @@ const UniAssistHub = () => {
       icon: 'FileText', // Use string names, pass actual icon component in component
       title: "Assignment Writing",
       description: "Professional academic writing services for all subjects and levels",
-      price: "From KSh 500",
+      price: "From KSh 50",
       features: ["Original Content", "Plagiarism Free", "24/7 Support", "Unlimited Revisions"]
     },
     {
@@ -72,17 +72,38 @@ const UniAssistHub = () => {
       icon: 'BookOpen',
       title: "SODEL Support",
       description: "Comprehensive support for School of Distance Education and eLearning",
-      price: "From KSh 800",
+      price: "From KSh 50",
       features: ["All Units", "CATs & Exams", "Discussion Posts", "Quick Turnaround"]
     },
     {
       icon: 'TrendingUp',
       title: "Research Reports",
       description: "Detailed research reports and thesis writing assistance",
-      price: "From KSh 2,000",
+      price: "From KSh 500",
       features: ["Data Analysis", "SPSS/R Support", "Proper Citations", "Chapter by Chapter"]
     }
-  ];
+    {
+      icon: 'LaptopCode',
+      title: "Website Development",
+      description: "Professional website design and development for students and businesses",
+      price: "From KSh 800",
+      features: ["Responsive Design", "Domain & Hosting Setup", "Portfolio & Business Sites", "SEO Optimized"]
+    }
+    {
+      icon: 'BookOpen',
+      title: "Past Papers Access",
+      description: "Access a wide range of updated past papers for KCSE, university, and college exams",
+      price: "From KSh 50 per paper",
+      features: ["University", "Organized by Subject", "PDF Downloads", "Instant Access"]
+    }
+    {
+      icon: 'Library',
+      title: "Novels & Literature",
+      description: "Get popular school set books and literature novels in soft copy or print",
+      price: "From KSh 100",
+      features: ["African & World Literature", "PDF/Print Options", "Discounted Student Prices"]
+    }
+    ];
 
   const testimonialsData = [
     {
