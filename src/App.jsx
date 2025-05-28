@@ -78,7 +78,7 @@ const UniAssistHub = () => {
       icon: 'TrendingUp',
       title: "Research Reports",
       description: "Detailed research reports and thesis writing assistance",
-      price: "From KSh 2,000",
+      price: "From KSh 500",
       features: ["Data Analysis", "SPSS/R Support", "Proper Citations", "Chapter by Chapter"]
     }
     {
@@ -116,7 +116,7 @@ const UniAssistHub = () => {
       name: "James Kiprotich",
       university: "Kenyatta University",
       text: "The CV writing service landed me my dream job. Highly professional and affordable!",
-      rating: 5,
+      rating: 4,
       image: "👨‍💼"
     },
     {
@@ -130,7 +130,7 @@ const UniAssistHub = () => {
       name: "Michael Otieno",
       university: "Strathmore University",
       text: "The portfolio website created was sleek and professional. It perfectly showcases my skills and helped me stand out to potential employers.",
-      rating: 5,
+      rating: 3,
       image: "👨‍🎓"
     }
     {
@@ -144,7 +144,7 @@ const UniAssistHub = () => {
       name: "Daniel Kamau",
       university: "Maseno University",
       text: "The collection of past papers was a lifesaver! Practicing with them sharpened my skills and boosted my exam performance.",
-      rating: 5,
+      rating: 4,
       image: "👨‍💻"
     }
   ];
