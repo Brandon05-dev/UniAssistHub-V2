@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Add to your src/App.css or equivalent global CSS file */
 /* These are Tailwind classes for animation, but if you have custom ones, place them here. */
 @keyframes fadeIn {

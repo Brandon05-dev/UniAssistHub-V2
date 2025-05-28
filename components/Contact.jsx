@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, MessageCircle, Mail, MapPin } from 'lucide-react';
+import { Phone, MessageCircle, Mail, MapPin, ArrowRight } from 'lucide-react';
 
 const Contact = ({ contactRef, isDarkMode }) => {
   return (

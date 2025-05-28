@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { MessageCircle, X } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Splash from './components/Splash';
 import Hero from './components/Hero';
@@ -9,8 +10,8 @@ import TrackOrder from './components/TrackOrder';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Chatbot from './components/Chatbot';
-import Chatbot from './components/FAQ';
-import Chatbot from './components/Footer';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 
 const UniAssistHub = () => {
   const [currentSection, setCurrentSection] = useState('home');
