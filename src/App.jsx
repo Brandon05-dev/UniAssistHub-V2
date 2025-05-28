@@ -101,7 +101,7 @@ const UniAssistHub = () => {
       description: "Get popular school set books and literature novels in soft copy or print",
       price: "From KSh 100",
       features: ["African & World Literature", "PDF/Print Options", "Discounted Student Prices"]
-      },   // <--- add this comma
+      } 
     ];
 
   const testimonialsData = [
@@ -146,7 +146,7 @@ const UniAssistHub = () => {
       text: "The collection of past papers was a lifesaver! Practicing with them sharpened my skills and boosted my exam performance.",
       rating: 4,
       image: "👨‍💻"
-    },
+    }
   ];
 
   // Splash screen effect
