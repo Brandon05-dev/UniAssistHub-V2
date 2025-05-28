@@ -1,4 +1,4 @@
-// 📁 src/main.jsx
+// main.jsx
 // Temp comment to trigger redeploy
 import React from "react";
 import ReactDOM from "react-dom/client";
