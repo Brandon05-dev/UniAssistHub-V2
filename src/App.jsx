@@ -107,7 +107,7 @@ const UniAssistHub = () => {
   const testimonialsData = [
     {
       name: "Sarah Wanjiku",
-      university: "University of Nairobi",
+      university: "JKUAT",
       text: "UniAssist Hub saved my final year! Their assignment help was exceptional and delivered on time.",
       rating: 5,
       image: "👩‍🎓"
