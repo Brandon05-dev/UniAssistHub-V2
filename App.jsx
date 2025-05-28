@@ -108,7 +108,7 @@ const UniAssistHub = () => {
   const testimonialsData = [
     {
       name: "Sarah Wanjiku",
-      university: "University of Nairobi",
+      university: "JKUAT",
       text: "UniAssist Hub saved my final year! Their assignment help was exceptional and delivered on time.",
       rating: 5,
       image: "👩‍🎓"
@@ -117,7 +117,7 @@ const UniAssistHub = () => {
       name: "James Kiprotich",
       university: "Kenyatta University",
       text: "The CV writing service landed me my dream job. Highly professional and affordable!",
-      rating: 5,
+      rating: 4,
       image: "👨‍💼"
     },
     {
@@ -126,6 +126,27 @@ const UniAssistHub = () => {
       text: "SODEL support was amazing. They helped me understand complex concepts and improve my grades.",
       rating: 5,
       image: "👩‍💻"
+    }
+    {
+      name: "Michael Otieno",
+      university: "Strathmore University",
+      text: "The portfolio website created was sleek and professional. It perfectly showcases my skills and helped me stand out to potential employers.",
+      rating: 3,
+      image: "👨‍🎓"
+    }
+    {
+      name: "Amina Mwikali",
+      university: "University of Nairobi",
+      text: "With expert assistance on my lab reports, I was able to submit high-quality work that impressed my professors.",
+      rating: 5,
+      image: "👩‍🔬"
+    }
+    {
+      name: "Daniel Kamau",
+      university: "Maseno University",
+      text: "The collection of past papers was a lifesaver! Practicing with them sharpened my skills and boosted my exam performance.",
+      rating: 4,
+      image: "👨‍💻"
     }
   ];
 
