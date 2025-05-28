@@ -1,7 +1,7 @@
 // 📁 src/components/Hero.jsx
 import React from "react";
 import { motion } from "framer-motion";
-import { FaFileAlt, FaIdCard, FaGraduationCap, FaFileUpload, FaLaptopCode, FaBookOpen, FaBook} from "react-icons/fa";
+import { FaFileAlt, FaIdCard, FaGraduationCap, FaFileUpload, FaLaptopCode, FaBookOpen, FaLibrary} from "react-icons/fa";
 
 const services = [
   { name: "Assignments", icon: FaFileAlt },
@@ -10,7 +10,7 @@ const services = [
   { name: "Reports", icon: FaFileUpload },
   { name: "Website Development", icon: FaLaptopCode },
   { name: "Past Papers", icon: FaBookOpen },
-  { name: "Novels", icon: FaBook },
+  { name: "Novels", icon: FaLibrary },
 ];
 
 const Hero = () => {
