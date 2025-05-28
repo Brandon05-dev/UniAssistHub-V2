@@ -104,7 +104,7 @@ const UniAssistHub = () => {
       } 
     ];
 
-  const testimonialsData = [
+  const testimonialsData = useMemo(() => [
     {
       name: "Sarah Wanjiku",
       university: "JKUAT",
@@ -147,7 +147,7 @@ const UniAssistHub = () => {
       rating: 4,
       image: "👨‍💻"
     }
-  ];
+  ], []);
 
   // Splash screen effect
   useEffect(() => {
@@ -201,11 +201,11 @@ const UniAssistHub = () => {
 
   // Testimonial carousel
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentTestimonial((prev) => (prev + 1) % testimonialsData.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [testimonialsData.length]);
+  const interval = setInterval(() => {
+    setCurrentTestimonial((prev) => (prev + 1) % testimonialsData.length);
+  }, 5000);
+  return () => clearInterval(interval);
+}, [testimonialsData]);
 
   const scrollToSection = (sectionRef, sectionName) => {
     sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -257,13 +257,13 @@ const UniAssistHub = () => {
         "I can help you with assignments, CV writing, SODEL support,Personal Websites Portfolio,Past Papers and research reports. What service are you interested in?",
         "Our prices start from KSh 50 for assignments. Would you like to know more about our services?",
         "You can place an order by clicking the 'Order Now' button or contacting us via WhatsApp. How can I assist you further?",
-        "We offer 24/7 support and guarantee original, plagiarism-free work. What academic help do you need?"
-        "Hi there! 👋 I’d be happy to help you create a stunning personal portfolio. Are you looking for a design from scratch or a revamp of an existing one?"
-        "Yes, I do! Please tell me your education level (e.g., KCSE, university), and the specific topics or years you’d like. I’ll get them ready for you."
-        "You’re welcome! 😊 If you need anything else, I’m just a message away."
-        "Hello! Need help with a report, past paper, or study resource? I’m here for all that and more. 😊"
-        "UniAssist Hub believes in you —keep pushing, keep growing."
-        "At UniAssist Hub, we believe: With education, you can shape not just your future, but the world." 
+        "We offer 24/7 support and guarantee original, plagiarism-free work. What academic help do you need?",
+        "Hi there! 👋 I’d be happy to help you create a stunning personal portfolio. Are you looking for a design from scratch or a revamp of an existing one?",
+        "Yes, I do! Please tell me your education level (e.g., KCSE, university), and the specific topics or years you’d like. I’ll get them ready for you.",
+        "You’re welcome! 😊 If you need anything else, I’m just a message away.",
+        "Hello! Need help with a report, past paper, or study resource? I’m here for all that and more. 😊",
+        "UniAssist Hub believes in you —keep pushing, keep growing.",
+        "At UniAssist Hub, we believe: With education, you can shape not just your future, but the world."
       ];
       const randomResponse = responses[Math.floor(Math.random() * responses.length)];
       setChatMessages(prev => [...prev, { text: randomResponse, isBot: true }]);
