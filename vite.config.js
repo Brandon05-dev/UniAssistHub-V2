@@ -11,7 +11,7 @@ export default defineConfig({
   },
   preview: {
     allowedHosts: [
-      'uniassisthub-v2-q5o8.onrender.com'
+      'uniassisthub-v2.onrender.com'
     ]
   }
 });
