@@ -1,7 +1,7 @@
 import React from 'react';
 import { MessageCircle } from 'lucide-react';
 
-const OrderAndPay = ({ orderRef, isDarkMode, handleWhatsAppOrder }) => {
+const OrderNow = ({ orderRef, isDarkMode, handleWhatsAppOrder }) => {
   return (
     <section ref={orderRef} className={`py-16 ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}>
       <div className="container mx-auto px-4 text-center">
@@ -40,4 +40,4 @@ const OrderAndPay = ({ orderRef, isDarkMode, handleWhatsAppOrder }) => {
   );
 };
 
-export default OrderAndPay;
+export default Orderow;
