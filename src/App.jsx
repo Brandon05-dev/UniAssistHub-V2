@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import Navbar from './components/Navbar';
 import Splash from './components/Splash';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
-import OrderNow from './components/OrderNow';
+import OrderNow from './components/OrderNow'; // Or rename usage to OrderNow
 import TrackOrder from './components/TrackOrder';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
@@ -309,7 +309,7 @@ const UniAssistHub = () => {
         handleWhatsAppOrder={handleWhatsAppOrder}
       />
 
-      <OrderAndPay
+      <OrderNow
         orderRef={orderRef}
         isDarkMode={isDarkMode}
         handleWhatsAppOrder={handleWhatsAppOrder}
