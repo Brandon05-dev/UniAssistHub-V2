@@ -1,7 +1,7 @@
 // 📁 src/components/FAQ.jsx
 import React from "react";
 
-const questions = [
+const Questions = [
   {
     question: "What services does UniAssist Hub offer?",
     answer: "We provide academic support including assignments, CV writing, SODEL assistance, reports, and more."
