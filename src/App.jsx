@@ -4,7 +4,7 @@ import Splash from './components/Splash';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
-import OrderAndPay from './components/OrderAndPay';
+import OrderNow from './components/OrderNow';
 import TrackOrder from './components/TrackOrder';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
